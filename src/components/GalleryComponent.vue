@@ -121,28 +121,23 @@
 const screenWidth = useScreenWidth();
 
   const cards = ref([
-    { image: "/public/notices/notice1.jpg" },
-    { image: "/public/notices/notice2.jpg" },
-    { image: "/public/notices/notice3.jpg" },
-    { image: "/public/notices/notice4.jpg" },
-    { image: "/public/notices/notice5.jpg" },
-    { image: "/public/notices/notice6.jpg" },
-    { image: "/public/notices/notice7.jpg" },
-    { image: "/public/notices/notice8.jpg" },
-    { image: "/public/notices/notice9.jpg" },
-    { image: "/public/notices/notice10.jpg" },
-    { image: "/public/notices/notice11.jpg" },
+    { image: "/notices/notice1.jpg" },
+    { image: "/notices/notice2.jpg" },
+    { image: "/notices/notice3.jpg" },
+    { image: "/notices/notice4.jpg" },
+    { image: "/notices/notice5.jpg" },
+    { image: "/notices/notice6.jpg" },
+    { image: "/notices/notice7.jpg" },
+    { image: "/notices/notice8.jpg" },
+    { image: "/notices/notice9.jpg" },
+    { image: "/notices/notice10.jpg" },
+    { image: "/notices/notice11.jpg" },
   ])
   
   const currentIndex = ref(0)
   const showModal = ref(false)
   const selectedIndex = ref(0)
-  
-  /**
-   * Calcula el offset para cada tarjeta con respecto a la "tarjeta frontal".
-   * Si el offset es muy grande (por ejemplo > mitad del total), se ajusta
-   * para que las tarjetas roten en un carrusel infinito.
-   */
+
   function offsetFor(index) {
     const total = cards.value.length
     let offset = index - currentIndex.value

@@ -3,7 +3,7 @@ import {ChevronDown, ChevronRight} from 'lucide-vue-next'
 </script>
 
 <template>
-  <header class="py-2.5 bg-white shadow-header fixed top-0 w-full z-1000 ">
+  <header class="py-2.5 bg-white shadow-header fixed top-0 w-full z-10000 ">
     <div class="container-general flex flex-row justify-between">
       <div class="w-[130px] h-[56px]">
         <img src="@/assets/img/logo.png" alt="logo">

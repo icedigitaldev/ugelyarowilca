@@ -7,9 +7,10 @@ const personalData = ref(personal.personal)
 
 <template>
   <section class="container-general py-25">
-    <div class="text-center">
-      <h2 class="text-[20px] font-bold tracking-[16%] uppercase text-blue100 relative after:content-[''] after:block after:w-24 after:h-1 after:bg-blue100 after:mx-auto after:mt-3">Personal administrativo</h2>
-      <p class="text-[32px] font-medium text-blue200 max-w-3xl mx-auto mt-3">Siempre listo para ayudarte con tus trámites y servicios.</p>
+    <div class="text-center mb-8">
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Personal administrativo</h2>
+      <p class="text-base text-gray-600 max-w-xl mx-auto">Siempre listo para ayudarte con tus trámites y servicios.</p>
+      <div class="h-1 w-16 bg-blue-400 mx-auto mt-3 rounded-full"></div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-[25px]">
       <!-- Card -->

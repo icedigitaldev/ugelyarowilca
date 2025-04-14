@@ -8,10 +8,11 @@ const notices = ref(noticesData.notices);
 
 <template>
 <section class="container-general py-25">
-    <div class="text-center">
-      <h2 class="text-[20px] font-bold tracking-[16%] uppercase text-blue100">Comunicación y Noticias</h2>
-      <p class="text-[32px] font-medium text-blue200">Mantente informado con nuestros comunicados y noticias.</p>
-    </div>
+  <div class="text-center mb-8">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Comunicación y Noticias</h2>
+    <p class="text-base text-gray-600 max-w-xl mx-auto">Mantente informado con nuestros comunicados y noticias.</p>
+    <div class="h-1 w-16 bg-blue-400 mx-auto mt-3 rounded-full"></div>
+  </div>
     <div class="grid grid-cols-3 mt-16 gap-6">
         <div v-for="notice in notices" :key="notice.id" class="rounded-[10px] bg-blue-50 border grid grid-cols-1 gap-3 border-blue200/8 p-4">
             <div class="">

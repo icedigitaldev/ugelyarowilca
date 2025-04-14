@@ -1,0 +1,25 @@
+{
+  "notices": [
+    {
+      "id": 1,
+      "title": "Unidos por la educación: UGEL Yarowilca y municipalidad firman convenio clave para el 2025",
+      "date": "20 de Nov 2025",
+      "image": "notice1.jpg",
+      "url": "/noticias/1"
+    },
+    {
+      "id": 2,
+      "title": "Capacitación docente: Nuevas estrategias pedagógicas para mejorar el aprendizaje en aulas rurales",
+      "date": "15 de Oct 2025",
+      "image": "notice2.jpg",
+      "url": "/noticias/2"
+    },
+    {
+      "id": 3,
+      "title": "Inauguración de laboratorio de ciencias en la I.E. José Carlos Mariátegui con tecnología de última generación",
+      "date": "5 de Sep 2025",
+      "image": "notice3.jpg",
+      "url": "/noticias/3"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "stats": [
+    {
+      "count": 841,
+      "label": "Estudiantes",
+      "image": "/icons/student.svg"
+    },
+    {
+      "count": 120,
+      "label": "Profesores",
+      "image": "/icons/teacher.svg"
+    },
+    {
+      "count": 45,
+      "label": "Escuelas",
+      "image": "/icons/school.svg"
+    },
+    {
+      "count": 30,
+      "label": "Programas",
+      "image": "/icons/location.svg"
+    }
+  ]
+}

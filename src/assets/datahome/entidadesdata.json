@@ -1,0 +1,64 @@
+{
+  "entidades": [
+    {
+      "logo": "dre.webp",
+      "url": "https://www.drehuanuco.gob.pe/"
+    },
+    {
+      "logo": "escale.webp",
+      "url": "https://escale.minedu.gob.pe/"
+    },
+    {
+      "logo": "gobiernodehuanuco.webp",
+      "url": "https://www.regionhuanuco.gob.pe/"
+    },
+    {
+      "logo": "mimantenimiento.webp",
+      "url": "https://mimantenimiento.pronied.gob.pe/sismantex/#/login"
+    },
+    {
+      "logo": "minedu.webp",
+      "url": "https://www.gob.pe/minedu"
+    },
+    {
+      "logo": "perueduca.webp",
+      "url": "https://www.perueduca.pe/#/home"
+    },
+    {
+      "logo": "portaldetransparencia.webp",
+      "url": "https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=18837"
+    },
+    {
+      "logo": "pronabec.webp",
+      "url": "https://www.pronabec.gob.pe/concursos-becas-creditos/"
+    },
+    {
+      "logo": "pronied.webp",
+      "url": "https://www.pronied.gob.pe/"
+    },
+    {
+      "logo": "semaforoescuela.webp",
+      "url": "https://www.minedu.gob.pe/semaforo-escuela/"
+    },
+    {
+      "logo": "siagie.webp",
+      "url": "https://siagie.minedu.gob.pe/inicio/"
+    },
+    {
+      "logo": "sineace.webp",
+      "url": "https://enlinea.sineace.gob.pe/"
+    },
+    {
+      "logo": "siseve.webp",
+      "url": "https://www.minedu.gob.pe/semaforo-escuela/"
+    },
+    {
+      "logo": "sunedu.webp",
+      "url": "https://www.gob.pe/sunedu"
+    },
+    {
+      "logo": "wasimicuna.webp",
+      "url": "https://www.gob.pe/wasimikuna"
+    }
+  ]
+}
